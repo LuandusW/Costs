@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "name": "Design",
+      "budget": "123",
+      "category": {
+        "id": "1",
+        "name": "Infraestructura"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "99juWK7wvgo"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infraestructura"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimiento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Marketing"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
