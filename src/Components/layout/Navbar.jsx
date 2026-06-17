@@ -13,7 +13,7 @@ function Navbar() {
                     </Link>
                     <ul className={styles.list}>
                         <li className={styles.item}><Link to='/'>Home</Link></li>
-                        <li className={styles.item}><Link to='/company'>Compañía</Link></li>
+                        <li className={styles.item}><Link to='/Project'>Proyectos</Link></li>
                         <li className={styles.item}><Link to='/contact'>Contacto</Link></li>
                         <li className={styles.item}><Link to='/Newproject'>Nuevo Proyecto</Link></li>
                     </ul>

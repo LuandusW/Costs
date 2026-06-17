@@ -18,7 +18,7 @@ function Newproject() {
             body: JSON.stringify(project),
         }).then((res => res.json))
             .then((data) => {
-                navigate('/projects', { state: { message: "Proyecto Creado" } });
+                navigate('/Project', { state: { message: "Proyecto Creado" } });
             })
             .catch((error) => console.error(error));
 

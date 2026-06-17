@@ -11,6 +11,7 @@ import Newproject from './Components/pages/Newproject'
 import Container from './Components/layout/Container'
 import Navbar from './Components/layout/Navbar'
 import Footer from './Components/layout/Footer'
+import Project from './Components/pages/Projects'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -21,7 +22,7 @@ function App() {
       <Container customClass="min-height">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path='/company' element={<Company />} />
+          <Route path='/Project' element={<Project />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/Newproject' element={<Newproject />} />
         </Routes>
