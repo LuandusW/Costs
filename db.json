@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Design",
-      "budget": "123",
+      "budget": "3334",
       "category": {
         "id": "1",
         "name": "Infraestructura"
@@ -43,6 +43,17 @@
       "cost": 0,
       "services": [],
       "id": "BxgYveruyhc"
+    },
+    {
+      "name": "Pruebita",
+      "budget": "123",
+      "category": {
+        "id": "1",
+        "name": "Infraestructura"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "pFAvhSEWOxY"
     }
   ],
   "categories": [
